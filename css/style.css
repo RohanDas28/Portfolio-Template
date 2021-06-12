@@ -1,0 +1,17 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.zoom {
+    transition: transform .6s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.button-zoom{
+    transition: transform .5s;
+}
+  .button-zoom:hover{
+      transform: scale(1.3);
+  }
